@@ -1,4 +1,4 @@
-use poise::serenity_prelude::{command, Timestamp};
+use poise::serenity_prelude::Timestamp;
 use chrono;
 use crate::{Context, Error};
 
