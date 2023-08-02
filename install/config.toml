@@ -1,0 +1,25 @@
+[info]
+
+name = "OpenBot"
+prefix = "!"
+description = "An Open-Source Discord Bot Written in Rust"
+invite = ""
+server = "todo"
+website = "https://openbot.leforg.com"
+docs = "https://openbot.leforg.com/docs"
+github = "https://github.com/ash-entwisle/openbot-rs"
+pfp = "https://cdn.discordapp.com/avatars/1032748423859929139/335d93af4cf945b2992de458bdd0f9db?size=4096"
+
+[embed]
+
+color = "00FF00"
+
+[admin]
+
+users = [
+    "609463800818827264"
+]
+
+guilds = [
+    "1027539359945203722"
+]

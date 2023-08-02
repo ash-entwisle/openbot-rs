@@ -1,0 +1,9 @@
+
+services:
+  container:
+    image: todo
+    volumes:
+      - ./config.toml:/usr/local/bin/config.toml
+    env_file:
+      - ./.env
+    restart: unless-stopped
