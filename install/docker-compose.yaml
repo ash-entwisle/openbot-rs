@@ -1,7 +1,7 @@
 
 services:
   container:
-    image: todo
+    image: ghcr.io/ash-entwisle/openbot-rs:latest
     volumes:
       - ./config.toml:/usr/local/bin/config.toml
     env_file:
