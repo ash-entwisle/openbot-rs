@@ -5,23 +5,23 @@ cd $(pwd)/openbot
 
 # Get Config File
 echo "Download Config File"
-curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot/main/install/config.sh -o config.sh
+curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot-rs/main/install/config.sh -o config.sh
 
 # Get Template Env File
 echo "Download Template Env File"
-curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot/main/install/temp.env -o .env
+curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot-rs/main/install/temp.env -o .env
 
 # Get Docker Compose 
 echo "Download Docker Compose File"
-curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot/main/install/docker-compose.yaml -o docker-compose.yaml
+curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot-rs/main/install/docker-compose.yaml -o docker-compose.yaml
 
 # Get License File
 echo "Download License File"
-curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot/main/LICENSE -o LICENSE
+curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot-rs/main/LICENSE -o LICENSE
 
 # Get Readme File
 echo "Download Readme File"
-curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot/main/README.md -o README.md
+curl -fsSL https://raw.githubusercontent.com/ash-entwisle/openbot-rs/main/README.md -o README.md
 
 # Done !!
 echo "Done !!"
