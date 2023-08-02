@@ -1,12 +1,13 @@
 FROM rust:alpine AS builder
 
 
-ENV NAME=rustybox
+ENV NAME=openbot
 
 WORKDIR /usr/src/app
 
 COPY . .
 
+RUN apk add libc-dev
 RUN cargo install --path .
 RUN cargo build --release
 
